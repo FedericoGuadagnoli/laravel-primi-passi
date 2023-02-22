@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: goldenrod;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header h1 {
+    padding: 2rem 0;
+    text-transform: uppercase;
+    font-weight: bolder;
+    color: rgb(0, 0, 0);
+}
+
+main {
+    position: relative;
+}
+
+main h1 {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    color: aqua;
+    font-weight: bolder;
+}
+
+main img {
+    width: 100%;
+    height: auto;
+}
